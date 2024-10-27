@@ -5,6 +5,7 @@ merged_data <- do.call(rbind, all_data)
 
 write.csv(merged_data, "merged_dataset.csv", row.names = FALSE)
 
+Rscript merge_data.R
 git clone https://github.com/agneshua/STAT.git
 cd data-merge-project
 
